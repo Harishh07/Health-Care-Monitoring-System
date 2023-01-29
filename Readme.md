@@ -1,5 +1,5 @@
 # REAL TIME HEALTH CARE MONITORING SYSTEM <br>
-#SIMULATED BODY AREA NETWORK (BAN)
+# SIMULATED BODY AREA NETWORK (BAN)
 
 
 The purpose of this project is to implement, validate and demonstrate a simple scalable communications protocol that employs Peer to Peer modalities of the type that might be found in Body Area Networking communication scenarios.
