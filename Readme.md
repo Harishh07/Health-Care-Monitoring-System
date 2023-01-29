@@ -1,9 +1,8 @@
-# SIMULATED BODY AREA NETWORK (BAN)
-Scalable Computing Project 4
+# REAL TIME HEALTH CARE MONITORING SYSTEM <br>
+#SIMULATED BODY AREA NETWORK (BAN)
+
 
 The purpose of this project is to implement, validate and demonstrate a simple scalable communications protocol that employs Peer to Peer modalities of the type that might be found in Body Area Networking communication scenarios.
-
-We propose a Wireless Body Area Network implemented for real time monitoring of patients in a hospital. Each patient is equipped with a number of sensors sending vital information to the sink attached to their body, which in turn, is capable of sending the data to a nearby edge node; the edge node being a server within the hospital. The edge node is where a doctor can monitor the status of all his patients using a dashboard.
 
 The proposed network has three major components:
 
@@ -12,7 +11,7 @@ The proposed network has three major components:
 3. Edge node
 
 
-**Below are the guidelines to get the network simulation up and running for simulation:**
+#Below are the guidelines to get the network simulation up and running for simulation:
 
 # Sink
 
