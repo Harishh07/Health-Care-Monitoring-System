@@ -1,0 +1,3 @@
+tom3_insl1: ./sensors/censor -dataset 3/split_sensorInsulinac -id tom3_insl1 -port 1234 -x 0 -y 1 -z 1 -interval 10 -duration 20
+tom3_pressure1: ./sensors/censor -dataset 3/split_sensorBloodPressureac -id tom3_pressure1 -port 1235 -x 0 -y 3 -z 2 -interval 15 -duration 50
+tom3_temp1: ./sensors/censor -dataset 3/split_sensorTempratureac -id tom3_temp1 -port 1236 -x 4 -y 4 -z 4 -interval 5 -duration 10

@@ -1,0 +1,3 @@
+sensor1: ./censor -dataset ../1/split_sensorInsulinaa -id sensor1 -port 1234 -x 0 -y 1 -z 1 -interval 10 -duration 20
+sensor2: ./censor -dataset ../1/split_sensorBloodPressureaa -id sensor2 -port 1235 -x 0 -y 3 -z 2 -interval 15 -duration 50
+sensor3: ./censor -dataset ../1/split_sensorTempratureaa -id sensor3 -port 1236 -x 4 -y 4 -z 4 -interval 5 -duration 10

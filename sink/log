@@ -1,0 +1,109 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v3.3.10-dev
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:9090
+{"time":"2019-11-22T13:41:36.849273793Z","level":"INFO","prefix":"-","file":"main.go","line":"146","message":"Register Sensor:&{sensor1 127.0.0.1 1234 {0 1 1}}"}
+{"time":"2019-11-22T13:41:37.851520053Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:37.851668441Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:858018\", \"Glucose Specimen\": 117, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:40.854683169Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:40.854785497Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:858018\", \"Glucose Specimen\": 113, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:44.851652506Z","level":"INFO","prefix":"-","file":"main.go","line":"146","message":"Register Sensor:&{sensor2 127.0.0.1 1235 {0 3 2}}"}
+{"time":"2019-11-22T13:41:44.856595935Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:44.856661794Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:858991\", \"Glucose Specimen\": 115, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:46.858050331Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:46.858130422Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:858991\", \"Glucose Specimen\": 114, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:47.855942264Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:41:47.856062831Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:375831\", \"BO Specimen\": 90, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:48.155380104Z","level":"INFO","prefix":"-","file":"main.go","line":"146","message":"Register Sensor:&{sensor3 127.0.0.1 1236 {4 4 4}}"}
+{"time":"2019-11-22T13:41:50.158812237Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:50.15890128Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:160488\", \"Temperature\": 104.73, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:50.858741073Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:41:50.85886547Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:375831\", \"BO Specimen\": 95, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:50.859926853Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:50.859988278Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:858991\", \"Glucose Specimen\": 115, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:51.162087071Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:51.162169251Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:160488\", \"Temperature\": 106.88, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:51.860737314Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:41:51.860826578Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:375831\", \"BO Specimen\": 90, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:52.164206497Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:52.164242663Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:160488\", \"Temperature\": 100.15, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:53.166482153Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:53.166565977Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:160488\", \"Temperature\": 100.65, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:53.861721051Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:41:53.861809116Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:859995\", \"Glucose Specimen\": 117, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:54.169409599Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:54.169504891Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 101.03, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:55.172351776Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:55.172464064Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 107.79, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:55.863559404Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:41:55.863640586Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:375831\", \"BO Specimen\": 89, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:56.175844325Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:41:56.175940381Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 100.87, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:56.865837373Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2"}
+{"time":"2019-11-22T13:41:56.865923423Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2 {\"Date\": \"20-Nov-2019 23:29:13:375831\", \"BO Specimen\": 91, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:41:57.17948645Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:41:57.179566374Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 102.37, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:01.86957784Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2"}
+{"time":"2019-11-22T13:42:01.869681602Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2 {\"Date\": \"20-Nov-2019 23:29:13:376828\", \"BO Specimen\": 93, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:04.184071352Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:04.184182609Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 102.27, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:05.187324075Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:05.187450589Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 101.21, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:06.190567863Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:06.190663703Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 101.79, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:06.865432698Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:06.865526218Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:859995\", \"Glucose Specimen\": 115, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:08.193676434Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:42:08.193780555Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 107.51, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:10.867930331Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:10.868033372Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:860995\", \"Glucose Specimen\": 115, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:11.869179175Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:11.869278747Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:861217\", \"Glucose Specimen\": 117, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:12.197196084Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:42:12.197287228Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:161483\", \"Temperature\": 100.15, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:13.874254972Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:42:13.874356579Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:380817\", \"BO Specimen\": 93, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:14.87114069Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:14.871236718Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:861217\", \"Glucose Specimen\": 112, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:15.876482173Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:42:15.876576801Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:380817\", \"BO Specimen\": 89, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:16.878525785Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2-sensor1"}
+{"time":"2019-11-22T13:42:16.878639606Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2-sensor1 {\"Date\": \"20-Nov-2019 23:29:13:380817\", \"BO Specimen\": 90, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:18.200808678Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2-sensor1"}
+{"time":"2019-11-22T13:42:18.200908367Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2-sensor1 {\"Date\": \"18-Nov-2019 12:57:34:162480\", \"Temperature\": 107.18, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:18.873462882Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:18.873567184Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:863457\", \"Glucose Specimen\": 112, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:19.874837927Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor1"}
+{"time":"2019-11-22T13:42:19.87494187Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor1 {\"Date\": \"21-Nov-2019 12:54:31:863457\", \"Glucose Specimen\": 116, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:20.204291967Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:20.20438295Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:162480\", \"Temperature\": 104.99, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:21.207488902Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:21.207596181Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:162480\", \"Temperature\": 106.18, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:21.882398658Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor2"}
+{"time":"2019-11-22T13:42:21.882479882Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor2 {\"Date\": \"20-Nov-2019 23:29:13:380817\", \"BO Specimen\": 94, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:22.210814848Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3-sensor2"}
+{"time":"2019-11-22T13:42:22.210910371Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3-sensor2 {\"Date\": \"18-Nov-2019 12:57:34:162480\", \"Temperature\": 105.9, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:24.215204918Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:24.215312858Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:162480\", \"Temperature\": 103.87, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:27.219476622Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:27.219566041Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 104.67, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:33.224202391Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:33.224304726Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 101.44, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:34.228107578Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:34.228196105Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 105.31, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:35.231860989Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:35.231979026Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 100.1, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:36.235567051Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:36.235660094Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 105.05, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:37.239305155Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:37.2394203Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 103.52, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:38.243265388Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:38.243369618Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 106.94, \"Condition\": \"Abnormal\"}\r}"}
+{"time":"2019-11-22T13:42:41.247316456Z","level":"INFO","prefix":"-","file":"main.go","line":"81","message":"data path:sensor3"}
+{"time":"2019-11-22T13:42:41.24741989Z","level":"INFO","prefix":"-","file":"main.go","line":"82","message":"receive data:&{sensor3 {\"Date\": \"18-Nov-2019 12:57:34:163477\", \"Temperature\": 102.72, \"Condition\": \"Abnormal\"}\r}"}

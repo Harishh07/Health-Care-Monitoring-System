@@ -1,0 +1,30 @@
+[36m22:27:50 cccc2 | [mStarting cccc2 on port 5100
+[32m22:27:50 cccc1 | [mStarting cccc1 on port 5000
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.793915012Z","level":"INFO","prefix":"-","file":"sensor.go","line":"101","message":"found closer sensor:[]"}
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.794866984Z","level":"INFO","prefix":"-","file":"http.go","line":"59","message":"listen::1235"}
+[36m22:27:50 cccc2 | [m⇨ http server started on [::]:1235
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.795477208Z","level":"INFO","prefix":"-","file":"sensor.go","line":"175","message":"report:{sensor2 a}"}
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.795558572Z","level":"INFO","prefix":"-","file":"sensor.go","line":"122","message":"no forward node avaliable, send data:{sensor2 a} to the sink:127.0.0.1:9090"}
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.795692302Z","level":"INFO","prefix":"-","file":"sensor.go","line":"133","message":"hhhhhh:sensor2  127.0.0.1:9090  {sensor2 a}"}
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.797868705Z","level":"INFO","prefix":"-","file":"sensor.go","line":"152","message":"send data result:"}
+[36m22:27:50 cccc2 | [m{"time":"2019-11-13T22:27:50.798070624Z","level":"INFO","prefix":"-","file":"sensor.go","line":"127","message":"send data to sink successfully"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.800950677Z","level":"INFO","prefix":"-","file":"sensor.go","line":"101","message":"found closer sensor:[]"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.801473611Z","level":"INFO","prefix":"-","file":"http.go","line":"59","message":"listen::1234"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.80193945Z","level":"INFO","prefix":"-","file":"sensor.go","line":"175","message":"report:{sensor1 1}"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.802151366Z","level":"INFO","prefix":"-","file":"sensor.go","line":"122","message":"no forward node avaliable, send data:{sensor1 1} to the sink:127.0.0.1:9090"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.802268241Z","level":"INFO","prefix":"-","file":"sensor.go","line":"133","message":"hhhhhh:sensor1  127.0.0.1:9090  {sensor1 1}"}
+[32m22:27:50 cccc1 | [m⇨ http server started on [::]:1234
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.803355887Z","level":"INFO","prefix":"-","file":"sensor.go","line":"152","message":"send data result:"}
+[32m22:27:50 cccc1 | [m{"time":"2019-11-13T22:27:50.803405801Z","level":"INFO","prefix":"-","file":"sensor.go","line":"127","message":"send data to sink successfully"}
+[36m22:27:51 cccc2 | [m{"time":"2019-11-13T22:27:51.798459841Z","level":"INFO","prefix":"-","file":"sensor.go","line":"175","message":"report:{sensor2 c}"}
+[36m22:27:51 cccc2 | [m{"time":"2019-11-13T22:27:51.798530515Z","level":"INFO","prefix":"-","file":"sensor.go","line":"122","message":"no forward node avaliable, send data:{sensor2 c} to the sink:127.0.0.1:9090"}
+[36m22:27:51 cccc2 | [m{"time":"2019-11-13T22:27:51.798603935Z","level":"INFO","prefix":"-","file":"sensor.go","line":"133","message":"hhhhhh:sensor2  127.0.0.1:9090  {sensor2 c}"}
+[36m22:27:51 cccc2 | [m{"time":"2019-11-13T22:27:51.799469659Z","level":"INFO","prefix":"-","file":"sensor.go","line":"152","message":"send data result:"}
+[36m22:27:51 cccc2 | [m{"time":"2019-11-13T22:27:51.799531506Z","level":"INFO","prefix":"-","file":"sensor.go","line":"127","message":"send data to sink successfully"}
+[32m22:27:51 cccc1 | [m{"time":"2019-11-13T22:27:51.803643516Z","level":"INFO","prefix":"-","file":"sensor.go","line":"175","message":"report:{sensor1 3}"}
+[32m22:27:51 cccc1 | [m{"time":"2019-11-13T22:27:51.803768576Z","level":"INFO","prefix":"-","file":"sensor.go","line":"122","message":"no forward node avaliable, send data:{sensor1 3} to the sink:127.0.0.1:9090"}
+[32m22:27:51 cccc1 | [m{"time":"2019-11-13T22:27:51.803817216Z","level":"INFO","prefix":"-","file":"sensor.go","line":"133","message":"hhhhhh:sensor1  127.0.0.1:9090  {sensor1 3}"}
+[32m22:27:51 cccc1 | [m{"time":"2019-11-13T22:27:51.80483003Z","level":"INFO","prefix":"-","file":"sensor.go","line":"152","message":"send data result:"}
+[32m22:27:51 cccc1 | [m{"time":"2019-11-13T22:27:51.80488622Z","level":"INFO","prefix":"-","file":"sensor.go","line":"127","message":"send data to sink successfully"}
+[32m22:27:51 cccc1 | [mTerminating cccc1
+[36m22:27:51 cccc2 | [mTerminating cccc2
